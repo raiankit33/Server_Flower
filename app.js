@@ -53,7 +53,7 @@ require("./config/passport")(passport);
 
 // Set Static Folders
 // app.use('/static',express.static('/public'));
-app.use(express.static(path.join(__dirname, "dist/flowerproject")));
+//app.use(express.static(path.join(__dirname, "dist/flowerproject")));
 
 // Routes
 app.use("/users", users);
